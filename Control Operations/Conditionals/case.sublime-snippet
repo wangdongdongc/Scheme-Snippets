@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+(case ${1:expr0)
+	[(${2:keys}) ${3:expr1}]
+	[(${4:keys}) ${5:expr2}]
+	[else ${6:expr3}])
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>case</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scheme</scope>
+	<description>(case expr0 clause1 clause2)</description>
+</snippet>

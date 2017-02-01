@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+(letrec ([${1:var1} ${2:expr1}]
+         [${3:var2} ${3:expr2}])
+	${3:body})]]></content>
+    <tabTrigger>letrec</tabTrigger>
+    <scope>source.scheme</scope>
+    <description>all exprs are within the scope of all vars</description>
+</snippet>

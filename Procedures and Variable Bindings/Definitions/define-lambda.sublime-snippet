@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+(define ${1:name} 
+	(lambda (${2:args})
+		${3:body}))
+    	]]></content>
+    <tabTrigger>define-lambda</tabTrigger>
+    <scope>source.scheme</scope>
+    <description>define lambda expression</description>
+</snippet>

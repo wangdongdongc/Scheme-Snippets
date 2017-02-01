@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+(make-vector ${1:n} ${2:obj})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>make-vector</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scheme</scope>
+	<description>a vector of length n</description>
+</snippet>

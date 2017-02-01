@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+(let ${1:name} ([${2:var} ${3:expr}])
+	${4:body})]]></content>
+    <tabTrigger>let-name</tabTrigger>
+    <scope>source.scheme</scope>
+    <description>named local binding</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+(newline)
+]]></content>
+    <tabTrigger>newline</tabTrigger>
+    <scope>source.scheme</scope>
+    <description>display a new line</description>
+</snippet>

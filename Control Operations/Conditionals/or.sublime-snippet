@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+(or ${1:expr..})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>or</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scheme</scope>
+	<description>value of first #t expr while #t exsit, #f otherwise</description>
+</snippet>

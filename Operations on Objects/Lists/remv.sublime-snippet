@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+(remv ${1:object} ${2:list})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>remv</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scheme</scope>
+	<description>返回不包含指定对象的新列表</description>
+</snippet>

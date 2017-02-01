@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+(vector-fill! ${1:vector} ${2:obj})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vector-fill!</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scheme</scope>
+	<description>replaces each element of vector with obj</description>
+</snippet>

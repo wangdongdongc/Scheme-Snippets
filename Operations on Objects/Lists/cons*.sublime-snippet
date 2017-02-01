@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+(cons* ${1:obj...} ${2:final-obj})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cons*</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scheme</scope>
+	<description>a list of obj... terminated by final-obj</description>
+		<!-- note: if final-obj is not a list, the result is an improper list -->
+</snippet>

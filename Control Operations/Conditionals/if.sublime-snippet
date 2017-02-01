@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+(if ${1:predicate}
+    ${2:consequent}
+    ${3:alternative})]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>source.scheme</scope>
+    <description>if</description>
+</snippet>

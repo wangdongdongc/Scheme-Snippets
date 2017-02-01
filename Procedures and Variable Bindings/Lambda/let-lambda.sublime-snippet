@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+(let ([${1:var} ${2:value}])
+	(lambda (${3:args})
+		${4:body}))
+]]></content>
+  <tabTrigger>let-lambda</tabTrigger>
+  <scope>source.scheme</scope>
+  <descritpion>lambda with local-binding</descritpion>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+(cdr ${1:pair})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cdr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scheme</scope>
+	<description>the cdr of pair</description>
+</snippet>
