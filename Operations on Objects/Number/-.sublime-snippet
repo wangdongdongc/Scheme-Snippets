@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+(- ${1:num1} ${2:num2 num3 ...})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>-</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scheme</scope>
+	<description>the difference between num1 and the sum of num2 num3 ...</description>
+</snippet>

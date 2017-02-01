@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+(negative? ${1:real})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>negative?</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scheme</scope>
+	<description>#t if real is less than zero, #f otherwise</description>
+</snippet>

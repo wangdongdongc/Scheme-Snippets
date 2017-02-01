@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+(odd? ${1:int})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>odd?</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scheme</scope>
+	<description>#t if int is odd, #f otherwise</description>
+</snippet>
