@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-(not ${0:obj})
+(number->string ${0:num})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>not</tabTrigger>
+	<tabTrigger>number->string</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.scheme</scope>
-	<description>#t if obj is false, #f otherwise</description>
+	<description>an external representation of num as a string</description>
 </snippet>

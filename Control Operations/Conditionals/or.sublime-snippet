@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-(or ${1:expr..})
+(or ${0:expr..})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>or</tabTrigger>

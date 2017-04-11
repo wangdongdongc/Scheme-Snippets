@@ -1,8 +1,9 @@
 <snippet>
 	<content><![CDATA[
 (define ${1:name}
-	(let ([${2:static-var} ${3:init-value}])
-		${4:body}))
+  (let ([${2:static-var} ${3:init-value}])
+    (labmda (${4:args})
+      ${0:body})))
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>define-let-lambda</tabTrigger>

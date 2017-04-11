@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+(syntax-rules ${1:literal ...}
+	[(${2:pattern}) (${0:template})])
+]]></content>
+    <tabTrigger>syntax-rules</tabTrigger>
+    <scope>source.scheme</scope>
+    <description>return a transformer</description>
+</snippet>

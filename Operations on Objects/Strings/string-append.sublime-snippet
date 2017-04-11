@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-(not ${0:obj})
+(string-append ${0:string ...}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>not</tabTrigger>
+	<tabTrigger>string-append</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.scheme</scope>
-	<description>#t if obj is false, #f otherwise</description>
+	<description>new string formed by concatenating string ...</description>
 </snippet>
